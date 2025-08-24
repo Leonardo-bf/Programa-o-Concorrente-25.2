@@ -1,0 +1,218 @@
+Resultado da execução da Atividade 1
+
+(O tempo de execução considerado foi a media de 5 execuções do programa)
+
+VETOR DE DIMENSÃO 5
+
+execução com 2 threads:
+Produto Interno Concorrente = -168662.68750000000000000000000000
+
+Produto Interno Sequencial = -168662.67797851562500000000000000
+
+Variância Relativa = -0.0000000565
+Tempo de execução para 2 threads foi igual a 0.000964
+
+execução com 4 threads:  
+Produto Interno Concorrente = -168662.68750000000000000000000000
+
+Produto Interno Sequencial = -168662.67797851562500000000000000
+
+Variância Relativa = -0.0000000565
+Tempo de execução para 4 threads foi igual a 0.001226
+
+execução com 8 threads (OBS: vetor de 5 elementos limita a quantidade de threads para 5):
+
+Produto Interno Concorrente = -168662.68750000000000000000000000
+
+Produto Interno Sequencial = -168662.67797851562500000000000000
+
+Variância Relativa = -0.0000000565
+Tempo de execução para 5 threads foi igual a 0.002194
+
+VETOR DE DIMENSÃO 100
+
+execução com 2 threads:
+
+Produto Interno Concorrente = -243661.25000000000000000000000000
+
+Produto Interno Sequencial = -243661.25849914550781250000000000
+
+Variância Relativa = 0.0000000349
+Tempo de execução para 2 threads foi igual a 0.001092
+
+execução com 4 threads:
+
+Produto Interno Concorrente = -243661.28125000000000000000000000
+
+Produto Interno Sequencial = -243661.25849914550781250000000000
+
+Variância Relativa = -0.0000000934
+Tempo de execução para 4 threads foi igual a 0.021267
+
+execução com 8 threads:
+
+Produto Interno Concorrente = -243661.25000000000000000000000000
+
+Produto Interno Sequencial = -243661.25849914550781250000000000
+
+Variância Relativa = 0.0000000349
+Tempo de execução para 8 threads foi igual a 0.001734
+
+execução com 11 threads:
+
+Produto Interno Concorrente = -243661.25000000000000000000000000
+
+Produto Interno Sequencial = -243661.25849914550781250000000000
+
+Variância Relativa = 0.0000000349
+Tempo de execução para 11 threads foi igual a 0.002081
+
+execução com 16 threads:
+
+Produto Interno Concorrente = -243661.25000000000000000000000000
+
+Produto Interno Sequencial = -243661.25849914550781250000000000
+
+Variância Relativa = 0.0000000349
+Tempo de execução para 16 threads foi igual a 0.002203
+
+VETOR DE DIMENSÃO 1000
+
+execução com 2 threads:
+
+Produto Interno Concorrente = 63043.42187500000000000000000000
+
+Produto Interno Sequencial = 63043.58067703247070312500000000
+
+Variância Relativa = 0.0000025189
+Tempo de execução para 2 threads foi igual a 0.000780
+
+execução com 4 threads:
+
+Produto Interno Concorrente = 63043.50000000000000000000000000
+
+Produto Interno Sequencial = 63043.58067703247070312500000000
+
+Variância Relativa = 0.0000012797
+Tempo de execução para 4 threads foi igual a 0.000700
+
+execução com 8 threads: 
+
+Produto Interno Concorrente = 63043.67187500000000000000000000
+
+Produto Interno Sequencial = 63043.58067703247070312500000000
+
+Variância Relativa = -0.0000014466
+Tempo de execução para 8 threads foi igual a 0.001234
+
+execução com 11 threads:
+
+Produto Interno Concorrente = 63043.54687500000000000000000000
+
+Produto Interno Sequencial = 63043.58067703247070312500000000
+
+Variância Relativa = 0.0000005362
+Tempo de execução para 11 threads foi igual a 0.001978
+
+execução com 16 threads:
+
+Produto Interno Concorrente = 63043.55468750000000000000000000
+
+Produto Interno Sequencial = 63043.58067703247070312500000000
+
+Variância Relativa = 0.0000004122
+Tempo de execução para 16 threads foi igual a 0.002593
+
+VETOR DE DIMENSÃO 1234:
+
+execução com 2 threads:
+
+Produto Interno Concorrente = 333086.37500000000000000000000000
+
+Produto Interno Sequencial = 333086.63223266601562500000000000
+
+Variância Relativa = 0.0000007723
+Tempo de execução para 2 threads foi igual a 0.000562
+
+execução com 4 threads:
+
+Produto Interno Concorrente = 333086.62500000000000000000000000
+
+Produto Interno Sequencial = 333086.63223266601562500000000000
+
+Variância Relativa = 0.0000000217
+Tempo de execução para 4 threads foi igual a 0.001186
+
+execução com 8 threads:
+
+Produto Interno Concorrente = 333086.56250000000000000000000000
+
+Produto Interno Sequencial = 333086.63223266601562500000000000
+
+Variância Relativa = 0.0000002094
+Tempo de execução para 8 threads foi igual a 0.001206
+
+execução com 11 threads:
+
+Produto Interno Concorrente = 333086.71875000000000000000000000
+
+Produto Interno Sequencial = 333086.63223266601562500000000000
+
+Variância Relativa = -0.0000002597
+Tempo de execução para 11 threads foi igual a 0.001447
+
+execução com 16 threads:
+
+Produto Interno Concorrente = 333086.53125000000000000000000000
+
+Produto Interno Sequencial = 333086.63223266601562500000000000
+
+Variância Relativa = 0.0000003032
+Tempo de execução para 16 threads foi igual a 0.002053
+
+VETOR DE DIMENSÃO 10000
+
+execução com 2 threads:
+
+Produto Interno Concorrente = 1480422.50000000000000000000000000
+
+Produto Interno Sequencial = 1480422.62821149826049804687500000
+
+Variância Relativa = 0.0000000866
+Tempo de execução para 2 threads foi igual a 0.000895
+
+execução com 4 threads:
+
+Produto Interno Concorrente = 1480420.25000000000000000000000000
+
+Produto Interno Sequencial = 1480422.62821149826049804687500000
+
+Variância Relativa = 0.0000016064
+Tempo de execução para 4 threads foi igual a 0.000928
+
+execução com 8 threads:
+
+Produto Interno Concorrente = 1480422.50000000000000000000000000
+
+Produto Interno Sequencial = 1480422.62821149826049804687500000
+
+Variância Relativa = 0.0000000866
+Tempo de execução para 8 threads foi igual a 0.001343
+
+execução com 11 threads:
+
+Produto Interno Concorrente = 1480419.25000000000000000000000000
+
+Produto Interno Sequencial = 1480422.62821149826049804687500000
+
+Variância Relativa = 0.0000022819
+Tempo de execução para 11 threads foi igual a 0.001815
+
+execução com 16 threads:
+
+Produto Interno Concorrente = 1480421.87500000000000000000000000
+
+Produto Interno Sequencial = 1480422.62821149826049804687500000
+
+Variância Relativa = 0.0000005088
+Tempo de execução para 16 threads foi igual a 0.002592
