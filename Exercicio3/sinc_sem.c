@@ -97,8 +97,9 @@ int main(int argc, char *argv[]) {
 
 
     srand(time(NULL));
+    int contador = rand() % 100;
     for (int i = 0; i < N; i++) {
-        numeros[i] = rand() % 10000000;
+        numeros[i] = contador++;
     }
 
     // Inicializa mutex e semáforos
@@ -149,6 +150,10 @@ int main(int argc, char *argv[]) {
 
     printf("\nTotal de primos encontrados: %d\n", totalPrimos);
     printf("Thread consumidora vencedora: %d (com %d primos)\n", vencedora, primosPorThread[vencedora]);
+    for(int i=0; i<N; i++){
+        printf("%lld ", numeros[i]);
+    }
+    printf("\n");
 
     free(numeros);
     free(buffer);
